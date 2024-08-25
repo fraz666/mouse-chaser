@@ -1,0 +1,23 @@
+{
+  "name": "mouse-chaser",
+  "version": "0.1.0",
+  "description": "A simple Web Component that will provide \"mouse chasing\" capabilities for your HTML elements 🐱‍👤",
+  "type": "module",
+  "main": "mouse-chaser.js",
+  "module": "mouse-chaser.js",
+  "types": "mouse-chaser.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "lit": "^3.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  },
+  "keywords": ["mouse", "follow", "helper"],
+  "author": "fraz666",
+  "license": "ISC"
+}
